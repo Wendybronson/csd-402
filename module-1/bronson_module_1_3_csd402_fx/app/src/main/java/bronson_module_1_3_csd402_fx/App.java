@@ -9,7 +9,9 @@
  * to heat water from an initial temperature to a final
  * temperature. The result is displayed in Joules.
 
- */package bronson_module_1_3_csd402_fx;
+ */
+
+package bronson_module_1_3_csd402_fx;
 
 import javafx.application.Application;
 import javafx.scene.control.Alert;
