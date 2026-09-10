@@ -1,11 +1,11 @@
 package bronson_mod_6_csd402;
+
 /*
  * Wendy Bronson
- * September 2026
+ * September 10, 2026
  * Module 6.2 Programming Assignment
- * Purpose: Create a Fan class that demonstrates classes, objects,
- * constructors, constants, private fields, getters, setters,
- * and the toString() method.
+ * Purpose: Test the Fan class using both constructors
+ * and demonstrate the Fan class methods.
  */
 
 public class Fan {
@@ -16,7 +16,7 @@ public class Fan {
     public static final int MEDIUM = 2;
     public static final int FAST = 3;
 
-    // Private data fields
+    // Fan fields
     private int speed;
     private boolean on;
     private double radius;
@@ -30,7 +30,7 @@ public class Fan {
         color = "white";
     }
 
-    // Argument constructor
+    // Constructor with arguments
     public Fan(int speed, boolean on, double radius, String color) {
         this.speed = speed;
         this.on = on;
@@ -48,12 +48,12 @@ public class Fan {
         this.speed = speed;
     }
 
-    // Getter for on/off status
+    // Getter for on
     public boolean isOn() {
         return on;
     }
 
-    // Setter for on/off status
+    // Setter for on
     public void setOn(boolean on) {
         this.on = on;
     }
@@ -78,12 +78,12 @@ public class Fan {
         this.color = color;
     }
 
-    // Returns a description of the fan's current state
+    // Returns the current state of the fan
     @Override
     public String toString() {
-        return "Fan speed: " + speed +
-                "\nFan is on: " + on +
-                "\nFan radius: " + radius +
-                "\nFan color: " + color;
+        return "Fan speed: " + speed
+                + "\nFan is on: " + on
+                + "\nFan radius: " + radius
+                + "\nFan color: " + color;
     }
 }

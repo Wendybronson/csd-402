@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'bronson_mod_6_csd402.App'
+    mainClass = 'bronson_mod_6_csd402.FanTest'
 }
 
 tasks.named('test') {

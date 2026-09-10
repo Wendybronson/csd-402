@@ -2,7 +2,7 @@ package bronson_mod_6_csd402;
 
 /*
  * Wendy Bronson
- * September 2026
+ * September 10, 2026
  * Module 6.2 Programming Assignment
  * Purpose: Test the Fan class using both constructors
  * and demonstrate the Fan class methods.
