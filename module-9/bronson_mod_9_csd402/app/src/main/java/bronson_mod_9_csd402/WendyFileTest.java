@@ -1,9 +1,14 @@
 /*
  * Name: Wendy Bronson
- * Date: September 24, 2026
- * Assignment: Module 9.2 Programming Assignment
- * Purpose: Create or append random integers to a file,
- *          then reopen the file, read the data, and display it.
+ * Date: October 10, 2026
+ * Assignment: Module 11.3 Redo of Module 9.2 Programming Assignment
+ *
+ * Purpose:
+ * This program creates a file named data.file if the file does not
+ * already exist. It generates ten random integers, appends the numbers
+ * to the file, reopens the file, reads the stored data, and displays
+ * the contents. The program also demonstrates IOException handling
+ * for file input and output operations.
  */
 
 
